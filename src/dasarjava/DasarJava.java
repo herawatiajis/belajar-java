@@ -57,10 +57,13 @@ public class DasarJava {
         System.out.println(hasil);
         
         //operator logika
-        int index_nilai1 = 80;
-        int index_nilai2 = 80;
+        boolean index_nilai1 = true;
+        boolean index_nilai2 = false;
         
-        //System.out.println(index_nilai1 && index_nilai2);
+        
+        System.out.println(index_nilai1 && index_nilai2);
+        System.out.println(index_nilai1 || index_nilai2);
+        System.out.println(index_nilai1 | index_nilai2);
         
         
     }
