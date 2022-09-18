@@ -24,6 +24,45 @@ public class DasarJava {
         double bb = 52.5;
         System.out.println(bb);
         
+        //operator aritmatika
+        int nilai1,nilai2;
+        nilai1 = 15;
+        nilai2 = 5;
+        System.out.println(nilai1 + nilai2);
+        System.out.println(nilai1 - nilai2);
+        System.out.println(nilai1 * nilai2);
+        System.out.println(nilai1 / nilai2);
+        System.out.println(nilai1 % nilai2);
+        
+        //operator perbandingan
+        System.out.println(nilai1 == nilai2);
+        System.out.println(nilai1 != nilai2);
+        System.out.println(nilai1 > nilai2);
+        System.out.println(nilai1 < nilai2);
+        System.out.println(nilai1 >= nilai2);
+        System.out.println(nilai1 <= nilai2);
+        
+        //operator assigment
+        int hasil = 2;
+        System.out.println(hasil);
+        hasil += 3;
+        System.out.println(hasil);
+        hasil -= 3;
+        System.out.println(hasil);
+        hasil *= 3;
+        System.out.println(hasil);
+        hasil /= 3;
+        System.out.println(hasil);
+        hasil %= 3;
+        System.out.println(hasil);
+        
+        //operator logika
+        int index_nilai1 = 80;
+        int index_nilai2 = 80;
+        
+        //System.out.println(index_nilai1 && index_nilai2);
+        
+        
     }
     
 }
